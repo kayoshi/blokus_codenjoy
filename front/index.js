@@ -11,13 +11,14 @@ function start() {
   
   var request = new XMLHttpRequest()
   // request.open('GET', 'http://heap.kz/' + `${roomNumber}` + '.json', true)
-  request.open('GET', 'http://heap.kz/roomOne.json', true)
+  // request.open('GET', 'http://heap.kz/roomOne.json', true)
+  request.open('GET', 'http://192.168.43.224:8080/getdrawed', true)
   request.onload = function() {
     var drawed = JSON.parse(this.response).drawed
     drawBox(drawed);
   }
   request.send();
-  console.log("here");
+  //console.log("here");
 }
 
 
