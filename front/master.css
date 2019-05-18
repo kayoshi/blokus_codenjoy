@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://wallpapertag.com/wallpaper/middle/e/5/4/418315-hd-wood-background-1920x1200-download.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room input {
+  padding: 5px;
+  font-size: 25px;
+  width: 200px;
+  border-radius: 5px;
+  height: 50px;
+}
+.room button {
+  padding: 5px;
+  font-size: 25px;
+  width: 200px;
+  border-radius: 5px;
+  height: 64px;
+  background-color: white;
+  border: 2px black solid;
+}
+
+.board {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.rules {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
